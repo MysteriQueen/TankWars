@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+    <com.example.v0_12.EasyGameView
+    android:id="@+id/gameAreaID"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"/>
+
+<RelativeLayout
+    android:id="@+id/gameLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/scoreID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="3px"
+        android:gravity="top"
+        android:text="@string/score_text"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:visibility="visible"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/readyID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:text="@string/mode_ready"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/timerID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="3px"
+        android:gravity="top"
+        android:layout_marginBottom="63dp"
+        android:visibility="visible"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+</RelativeLayout>
+</FrameLayout>

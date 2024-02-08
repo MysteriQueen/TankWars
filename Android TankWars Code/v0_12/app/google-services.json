@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "90815970264",
+    "project_id": "tankwars-d4e3c",
+    "storage_bucket": "tankwars-d4e3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90815970264:android:ba86e58588a452244010ad",
+        "android_client_info": {
+          "package_name": "com.example.v0_12"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90815970264-4ajokqrmthudbhatcknmh9asi3e927bl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyxbEVUgo_wIhvtjzpVlOh4JpUabNA5Cw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90815970264-4ajokqrmthudbhatcknmh9asi3e927bl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
